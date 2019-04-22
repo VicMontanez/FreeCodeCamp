@@ -1,3 +1,4 @@
+//Challenge 1- Sum All Numbers in a Range
 function sumAll(arr) {
   var max = Math.max(arr[0], arr[1]);
     var min = Math.min(arr[0], arr[1]);
