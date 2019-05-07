@@ -1,1 +1,1 @@
-//Free Code Camp Intermediate Algortithm Scripting
+//Various Free Code Camp Lessons
