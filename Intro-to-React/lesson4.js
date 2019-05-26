@@ -1,3 +1,4 @@
+//Render HTML Elements to the DOM
 const JSX= (
   <div>
     <h1>Hello World</h1>
