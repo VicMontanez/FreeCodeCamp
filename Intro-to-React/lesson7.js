@@ -1,3 +1,4 @@
+//Create a Stateless Functional Component
 const MyComponent = function() {
   // change code below this line
 return (
