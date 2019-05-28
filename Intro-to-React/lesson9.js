@@ -1,3 +1,4 @@
+//Create a Component with Composition
 const ChildComponent = () => {
   return (
     <div>
