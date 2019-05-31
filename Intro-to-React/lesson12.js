@@ -1,4 +1,4 @@
-
+//Render a Class Component to the DOM
 class TypesOfFood extends React.Component {
   constructor(props) {
     super(props);
