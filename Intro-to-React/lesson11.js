@@ -1,3 +1,4 @@
+//Compose React Components
 class Fruits extends React.Component {
   constructor(props) {
     super(props);
