@@ -1,1 +1,1 @@
-//FreeCodeCamp Intro to React Lessons
+//Intro to React Lessons
