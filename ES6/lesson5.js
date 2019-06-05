@@ -9,7 +9,8 @@ Object.freeze(MATH_CONSTANTS);
   // change code above this line
   try {
     MATH_CONSTANTS.PI = 99;
-  } catch( ex ) {
+  } 
+  catch( ex ) {
     console.log(ex);
   }
   return MATH_CONSTANTS.PI;
