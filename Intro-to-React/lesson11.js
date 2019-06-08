@@ -7,10 +7,10 @@ class Fruits extends React.Component {
     return (
       <div>
         <h2>Fruits:</h2>
-        { /* change code below this line */ }
+      
             <NonCitrus />
             <Citrus />
-         { /* change code above this line */ }
+        
       </div>
     );
   }
