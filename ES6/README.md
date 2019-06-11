@@ -1,1 +1,1 @@
-//FreeCodeCamp ES6 Lessons
+//FreeCodeCamp ES6 Lesson
