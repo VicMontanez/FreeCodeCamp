@@ -1,3 +1,4 @@
+//Sum All Numbers in a Range
 function sumAll(arr) {
   arr.sort(function(a,b){return a - b})
   //Find the maximum and the minimum of numbers in arr
