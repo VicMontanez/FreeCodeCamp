@@ -1,12 +1,18 @@
-//Challenge 1- Sum All Numbers in a Range
 function sumAll(arr) {
-  var max = Math.max(arr[0], arr[1]);
-    var min = Math.min(arr[0], arr[1]);
-    var temp = 0;
-    for (var i=min; i <= max; i++){
-        temp += i;
-    }
-  return(temp);
+  arr.sort(function(a,b){return a - b})
+  //Find the maximum and the minimum of numbers in arr
+console.log(arr)
+  //Find the numbers in between the two numbers in the arr
+var result = 0;
+for(var i=arr[0]; i<=arr[1]; i++) {
+  result += i
 }
 
-sumAll([1, 4]);
+
+  //Add all of the numbers together including the two numbers in the arr
+  return result
+  
+ 
+}
+
+sumAll([10, 4]);
