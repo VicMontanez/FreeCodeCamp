@@ -1,3 +1,4 @@
+//Lesson 7
 function repeatStringNumTimes(str, num) {
     // repeat after me
     var newString = ''
