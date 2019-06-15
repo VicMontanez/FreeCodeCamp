@@ -1,3 +1,4 @@
+//Lesson 9
 function findElement(arr, func) {
     let num = 0;
     
