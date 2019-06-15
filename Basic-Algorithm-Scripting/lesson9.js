@@ -1,4 +1,4 @@
-//Lesson 9
+//Lesson 9 Finders Keepers
 function findElement(arr, func) {
     let num = 0;
     
