@@ -1,3 +1,4 @@
+//Lesson 11
 function titleCase(str) {
 
    return str.toLowerCase().replace(/(^|\s)\S/g, (word) => word.toUpperCase());
