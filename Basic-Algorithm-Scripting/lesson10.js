@@ -6,7 +6,7 @@ function booWho(bool) {
     } else {
       return false
     }
-    return bool;
+    
   }
   
   booWho(null);
