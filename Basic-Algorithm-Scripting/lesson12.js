@@ -1,4 +1,4 @@
-//Lesson 12
+//Lesson 12 Slice and Splice
 function frankenSplice(arr1, arr2, n) {
     // It's alive. It's alive!
     var newArr = [...arr2]
