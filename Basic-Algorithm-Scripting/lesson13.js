@@ -1,4 +1,4 @@
-//Lesson 13 
+//Lesson 13 Falsy Bouncer
 function bouncer(arr) {
     // Don't show a false ID to this bouncer.
     var bounceArr = arr.filter(Boolean)
