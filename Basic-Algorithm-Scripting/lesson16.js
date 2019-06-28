@@ -1,3 +1,4 @@
+//Lesson 16
 function chunkArrayInGroups(arr, size) {
     // Break it up.
     var newArr = [];
