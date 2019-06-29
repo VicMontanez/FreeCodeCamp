@@ -1,4 +1,4 @@
-//Lesson 3
+//Lesson 3 Seek and Destroy
 function destroyer(arr) {
   var args = Array.prototype.slice.call(arguments);
 
