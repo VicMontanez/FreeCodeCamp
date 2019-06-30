@@ -1,4 +1,4 @@
-//Lesson 16
+//Lesson 16 Chunky Monkey
 function chunkArrayInGroups(arr, size) {
     // Break it up.
     var newArr = [];
