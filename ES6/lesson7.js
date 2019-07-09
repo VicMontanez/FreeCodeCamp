@@ -1,4 +1,4 @@
-//Write Arrow Functions with Parameters
+//Lesson 7 Write Arrow Functions with Parameters
 const myConcat = (arr1, arr2) => {
   return arr1.concat(arr2)
 };
