@@ -1,3 +1,4 @@
+//Lesson 1
 let catName;
 let quote;
 function catTalk() {
