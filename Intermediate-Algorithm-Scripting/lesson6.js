@@ -1,5 +1,6 @@
 function translatePigLatin(str) {
     let firstWord=str[0];
+    //Lesson 6
     let vowels=/[aeiou]/gi;
     let newWord="";
     if(!str.match(vowels)){
