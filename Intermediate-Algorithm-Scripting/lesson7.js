@@ -1,4 +1,4 @@
-//Lesson 7
+//Lesson 7 Seacrh and Replace
 function myReplace(str, before, after) {
  
     var first = str.indexOf(before);
