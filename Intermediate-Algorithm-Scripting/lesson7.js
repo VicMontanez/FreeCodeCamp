@@ -1,3 +1,4 @@
+//Lesson 7
 function myReplace(str, before, after) {
  
     var first = str.indexOf(before);
