@@ -1,3 +1,4 @@
+//Lesson 8
 function pairElement(str) {
 
     var pairs = {A: 'T', T: 'A', C: 'G', G: 'C'};
