@@ -1,12 +1,10 @@
-//Lesson 8
+//Lesson 8 DNA Paring
 function pairElement(str) {
+  var pairs = { A: "T", T: "A", C: "G", G: "C" };
 
-    var pairs = {A: 'T', T: 'A', C: 'G', G: 'C'};
-    
-      return str.split('').map(function(base){
-        return [base, pairs[base]]
-      });
-    }
-    
-    pairElement("GCG");
-    
+  return str.split("").map(function(base) {
+    return [base, pairs[base]];
+  });
+}
+
+pairElement("GCG");
