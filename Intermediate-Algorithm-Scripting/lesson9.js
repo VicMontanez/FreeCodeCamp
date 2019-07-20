@@ -1,4 +1,4 @@
-//Lesson 9
+//Lesson 9 Missing Letters
 function fearNotLetter(str) {
   // split the str and create new array of character's numerical value
   let numberVal = str.split("").map(function(letter) {
