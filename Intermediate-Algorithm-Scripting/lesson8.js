@@ -2,9 +2,10 @@
 function pairElement(str) {
   var pairs = { A: "T", T: "A", C: "G", G: "C" };
 
-  return str.split("").map(function(base) {
-    return [base, pairs[base]];
-  });
+  //split string into array of characters
+  var chars = str.split("");
+  //map character to array of character and matching pair
+  return chars.map(x => [x, pairs[x]]);
 }
 
 pairElement("GCG");
