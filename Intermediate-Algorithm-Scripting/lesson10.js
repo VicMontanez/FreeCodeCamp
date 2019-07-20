@@ -1,3 +1,4 @@
+//Lesson 10
 function uniteUnique(arr) {
   var args = Array.prototype.slice.call(arguments);
   var newArr = [];
