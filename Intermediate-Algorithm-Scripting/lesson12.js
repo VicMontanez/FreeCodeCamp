@@ -1,4 +1,4 @@
-//Lesson 12
+//Lesson 12 Sum All Odd Fibonacci Numbers
 function sumFibs(num) {
   Array.prototype.last = function() {
     return this[this.length - 1];
