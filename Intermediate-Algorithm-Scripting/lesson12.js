@@ -19,5 +19,4 @@ function sumFibs(num) {
       return a + b;
     });
 }
-
 sumFibs(4);
