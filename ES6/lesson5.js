@@ -1,3 +1,4 @@
+//Lesson 5
 function freezeObj() {
   "use strict";
   const MATH_CONSTANTS = {
