@@ -1,3 +1,4 @@
+//Lesson 12
 const AVG_TEMPERATURES = {
   today: 77.5,
   tomorrow: 79
