@@ -1,4 +1,4 @@
-//lesson14
+//Lesson14
 let a = 8,
   b = 6;
 (() => {
