@@ -8,4 +8,5 @@ let a = 8,
   // change code above this line
 })();
 console.log(a); // should be 6
+
 console.log(b); // should be 8
