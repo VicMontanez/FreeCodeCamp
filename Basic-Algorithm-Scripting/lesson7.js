@@ -1,14 +1,15 @@
 //Lesson 7  Repeat a String Repeat a String
 function repeatStringNumTimes(str, num) {
-    // repeat after me
-    var newString = ''
-  
-    while (num > 0) {
-      newString += str;
-      num --
-    }
-  
-    return newString;
+  // repeat after me
+
+  var strFull = "";
+  if (num < 0) {
+    return "";
   }
-  
-  repeatStringNumTimes("abc", 3);
+  for (var i = 0; i < num; i++) {
+    strFull = str.concat(strFull);
+  }
+  return strFull;
+}
+
+repeatStringNumTimes("abc", 3);
