@@ -27,23 +27,22 @@ function readLine() {
 
 // Complete the countingValleys function below.
 function countingValleys(n, s) {
-  var currentValley = 0;
+  var currentLevel = 0;
   var prevLevel = 0;
   var valleyCount = 0;
 
   for (var i = 0; i < s.length; i++) {
-    prevLevel = currentValley;
     if (s[i] === "U") {
-      currentValley += 1;
+      currentLevel++;
     } else {
-      currentValley -= 1;
+      currentLevel--;
     }
 
-    if (prevLevel === 0 && currentValley < 0) {
-      valleyCount += 1;
+    if (currentLevel === 0 && s[i] === "U") {
+      valleyCount++;
     }
   }
-
+  console.log(valleyCount);
   return valleyCount;
 }
 
