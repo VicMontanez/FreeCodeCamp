@@ -1,14 +1,11 @@
-//Lesson 9 Finders Keeper's
 function findElement(arr, func) {
-    let num = 0;
-    
-    for(var i = 0; i < arr.length; i++) {
-      num = arr[i];
-      if (func(num)) {
-        return num;
-      }
+  let num = 0;
+
+  for (var i = 0; i < arr.length; i++) {
+    if (func(arr[i]) == true) {
+      return arr[i];
     }
-    
-    return undefined;
   }
-  findElement([1, 2, 3, 4], num => num % 2 === 0);
+}
+
+findElement([1, 2, 3, 4], num => num % 2 === 0);
