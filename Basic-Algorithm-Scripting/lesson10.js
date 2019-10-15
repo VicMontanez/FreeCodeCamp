@@ -1,12 +1,12 @@
-//Lesson 10 Boo who
 function booWho(bool) {
-    // What is the new fad diet for ghost developers? The Boolean.
-    if (typeof bool === "boolean"){
-      return true
-    } else {
-      return false
-    }
-    
+  // What is the new fad diet for ghost developers? The Boolean.
+  if (bool === true || bool === false) {
+    return true;
+  } else {
+    return false;
   }
-  
-  booWho(null);
+
+  return bool;
+}
+
+booWho(null);
