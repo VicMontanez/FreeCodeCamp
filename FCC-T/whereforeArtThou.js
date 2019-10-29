@@ -6,14 +6,21 @@ function whatIsInAName(collection, source) {
   // What's in a name?
   var arr = [];
   // Only change code below this line
-  for (var i = 0; i < collection.length; i++) {
-    if (collection[i] === source.length) {
-      arr.push(collection[i]);
-      console.log(arr);
+
+  for (var keyword in source) {
+    var keyWord = source[keyword];
+  }
+
+  for (i = 0; i < collection.length; i++) {
+    for (var key in collection[i]) {
+      if (collection[i][key] == keyWord && keyword == key) {
+        arr.push(collection[i]);
+      }
     }
   }
 
-  // Only change code above this line
+  // Only change code
+  console.log(arr);
 }
 
 whatIsInAName(
