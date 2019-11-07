@@ -6,7 +6,7 @@ function spinalCase(str) {
   var regex = /\s|_/g;
   var lowerCase = str.toLowerCase();
   var newStr = lowerCase.replace(regex, "-");
-  return newStr;
+  console.log(newStr);
 }
 
-spinalCase("This Is Spinal Tap");
+spinalCase("AllThe-small Things");
