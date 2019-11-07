@@ -9,9 +9,12 @@
 // Input strings are guaranteed to be English words in all lowercase.
 
 function translatePigLatin(str) {
-  let consonants = /^[^aeiou]+/;
-  if (str.match(/^[aeiou]/)) console.log(str + "way");
-  if (str.match(consonants)) console.log(str + "ay");
+  let consonants = str.match(/^[^aeiou]+/);
+  let vowels = str.match(/^[aeiou]/);
+  if (vowels) {
+    console.log(str + "way");
+  } else if (consonants)
+    console.log(str.substring(consonants.length) + consonants + "ay");
 }
 
-translatePigLatin("consonant");
+translatePigLatin("gloves");
