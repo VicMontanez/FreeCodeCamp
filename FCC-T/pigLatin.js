@@ -13,7 +13,9 @@ function translatePigLatin(str) {
   let vowels = str.match(/^[aeiou]/);
   if (vowels) {
     console.log(str + "way");
-  } else consonants;
+  } else if (condition) {
+  }
+  consonants;
   console.log(str.substring(consonants.length) + consonants + "ay");
 }
 
