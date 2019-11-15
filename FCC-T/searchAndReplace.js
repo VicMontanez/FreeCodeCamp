@@ -7,7 +7,7 @@
 // Third argument is what you will be replacing the second argument with (after).
 
 function myReplace(str, before, after) {
-  console.log(str);
+  console.log(str.replace(before, after));
 }
 
-myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+myReplace("He is Sleeping on the couch", "Sleeping", "sitting");
