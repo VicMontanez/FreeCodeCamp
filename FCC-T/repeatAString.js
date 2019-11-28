@@ -14,3 +14,5 @@ function repeatStringNumTimes(str, num) {
 }
 
 repeatStringNumTimes("abc", 3);
+
+//25 min 40sec
