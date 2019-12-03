@@ -15,4 +15,4 @@ function findLongestWordLength(str) {
   return wordLength;
 }
 
-//28 min 
+//24 min 27 sec
