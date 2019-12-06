@@ -4,3 +4,5 @@ function confirmEnding(str, target) {
 }
 
 confirmEnding("Congratulation", "on");
+
+//19 min 23 sec
