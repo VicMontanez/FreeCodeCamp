@@ -8,3 +8,5 @@ function truncateString(str, num) {
 }
 
 truncateString("A-tisket a-tasket A green and yellow basket", 8);
+
+//40 min 37 sec
