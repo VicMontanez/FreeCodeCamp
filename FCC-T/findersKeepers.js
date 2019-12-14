@@ -10,3 +10,5 @@ function findElement(arr, func) {
 }
 
 findElement([1, 2, 3, 4], num => num % 2 === 0);
+
+//40 min 27 sec
