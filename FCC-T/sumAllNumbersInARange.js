@@ -16,4 +16,4 @@ function sumAll(arr) {
   return num;
 }
 sumAll([1, 4]);
-// 7 min 15 sec
+// 25 min 40 sec
