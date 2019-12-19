@@ -1,4 +1,4 @@
-//A Very Big Sum
+//A Very Big Sum - Hacker Rank
 
 "use strict";
 
