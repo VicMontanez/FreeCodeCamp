@@ -21,3 +21,5 @@ function checkPalindrome(inputString) {
 checkPalindrome("aabaa");
 checkPalindrome("abac");
 checkPalindrome("a");
+
+//50 min 27 sec
